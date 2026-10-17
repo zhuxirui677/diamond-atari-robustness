@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv*/
+node_modules/
+.env
+.env.*
+*.pem
+*.key
+*.pkl
+*.log
+.ipynb_checkpoints/
+atari-results/
