@@ -1,0 +1,9 @@
+game,domain,condition,level,cases,successes,success_rate,ci95_low,ci95_high,drop_vs_normal,paired_drop_ci95_low,paired_drop_ci95_high,mean_clipped_return
+Breakout,ale,normal,0.0,2,2,1.0,0.34238022750665303,1.0,0.0,0.0,0.0,3.0
+Breakout,wm,normal,0.0,2,2,1.0,0.34238022750665303,1.0,0.0,0.0,0.0,3.0
+Breakout,ale,sham,0.0,2,2,1.0,0.34238022750665303,1.0,0.0,0.0,0.0,3.0
+Breakout,wm,sham,0.0,2,2,1.0,0.34238022750665303,1.0,0.0,0.0,0.0,3.0
+Breakout,ale,drop,0.1,2,2,1.0,0.34238022750665303,1.0,0.0,0.0,0.0,3.0
+Breakout,wm,drop,0.1,2,2,1.0,0.34238022750665303,1.0,0.0,0.0,0.0,2.5
+Breakout,ale,noise,0.02,2,2,1.0,0.34238022750665303,1.0,0.0,0.0,0.0,3.0
+Breakout,wm,noise,0.02,2,2,1.0,0.34238022750665303,1.0,0.0,0.0,0.0,3.0
