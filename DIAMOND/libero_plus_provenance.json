@@ -1,0 +1,32 @@
+{
+  "repository": "https://github.com/sylvestf/LIBERO-plus",
+  "revision": "4976dc30028e805ff8094b55501d532c48fec182",
+  "source": "libero/libero/envs/env_wrapper.py",
+  "source_sha256": "e91d7b7b35cc3ad2b073606c99860def6b3ac43b66eba00ef0ddb6bfd8f39c3c",
+  "extracted_functions": [
+    "clipped_zoom",
+    "fog",
+    "gaussian_blur",
+    "glass_blur",
+    "motion_blur",
+    "plasma_fractal",
+    "zoom_blur"
+  ],
+  "adaptation": "Original function bodies; policy-only Atari 64x64 RGB input. Motion backend loaded only when requested.",
+  "gaussian_blur_sigma": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "input": "uint8 RGB, 64x64; after Atari preprocessing",
+  "channel": "policy observation only; clean latent world-model conditioning",
+  "initial_state": "paired ALE snapshots; no additional initial-state disturbance",
+  "light": "not implemented; awaiting shared Atari adaptation"
+}
